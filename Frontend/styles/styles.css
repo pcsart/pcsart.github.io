@@ -250,7 +250,7 @@ article p {
 
 /* TABLET */
 
-@media (max-width: 70em) {
+@media (max-width: 65em) {
 	* {
 		font-family: "NS Sans", sans-serif;
 	}
