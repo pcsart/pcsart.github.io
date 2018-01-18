@@ -1,0 +1,104 @@
+body > header > nav {
+	list-style-type: none;
+	margin: 0;
+	margin-bottom: -30em;
+	background-color: white;
+}
+
+	nav {
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	
+	padding: 1em;
+}
+
+li:nth-of-type(2) {
+
+	margin-left: auto;
+}
+
+li a {
+	
+	color: rgb(0, 48, 130);
+	padding: .25em .5em;
+	text-decoration: none;
+	margin-right: 6.25em;
+}
+
+li img {
+	margin-left: 1.5em;
+	margin-top: 0em;
+	width: 3.750em;
+}
+
+
+
+body {
+	font-family: NS Sans, sans-serif;
+	background-image: url(https://media.nu.nl/m/7wmxam9aelia_wd1280.jpg/profiel-ns-spoorwegbedrijf-met-ruim-34000-werknemers.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+input[type=text],
+input[type=password] {
+	width: 100%;
+	padding: 0.75em 1.25em;
+	margin: 0.5em 0;
+	border: 0.0625em solid #ccc;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	background-color: rgb(0, 121, 211);
+	color: white;
+	font-size: 1.5em;
+	padding: 0.875em 1.25em;
+	margin: 0.5em 0;
+	border-bottom-color: rgb(0, 48, 130);
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+form {
+	color: rgb(0, 48, 130);
+	background-color: white;
+	border-left: 0.3125em solid rgb(0, 121, 211);
+	box-shadow: 0 7px 7px -5px darkgrey;
+	left: 30.5%;
+	top: 62.5%;
+	margin-left: -20%;
+	position: absolute;
+	margin-top: -22%;
+}
+
+fieldset {
+	border: none;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+a {
+	color: rgb(0, 48, 130);
+}
