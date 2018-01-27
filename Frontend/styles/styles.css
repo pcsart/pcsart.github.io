@@ -272,19 +272,11 @@ article p {
 		height: auto;
 	}
 	nav {
-		font-size: 1.9em;
+		font-size: 1.7em;
 		padding-top: 0.5em;
 		margin: 0;
 	}
-	ul {
-		list-style: none;
-		display: flex;
-		padding: 0;
-		margin-top: 0;
-	}
-	li:nth-of-type(2) {
-		margin-left: auto;
-	}
+	
 	li a {
 		color: rgb(0, 48, 130);
 		padding: 0.25em .5em;
@@ -294,56 +286,34 @@ article p {
 		-webkit-appearance: none;
 		border-radius: 0;
 		font-family: "NS sans", sans-serif;
-		background-color: rgb(255, 201, 23);
-		border-right: none;
-		border-left: none;
-		border-top: none;
 		border-bottom-color: rgb(230, 181, 23);
 		font-size: 2.2em;
 		width: 4em;
 		margin-left: 11%;
 		margin-top: 0.5em;
 		margin-bottom: 0.3em;
-		color: rgb(0, 48, 130);
-		cursor: pointer;
-		-webkit-border-radius: 0px;
+		
 	}
-	main img {
-		width: auto;
-		height: auto;
-	}
+	
 	main input {
 		-webkit-appearance: none;
 		border-radius: 0;
-		position: absolute;
 		font-family: "NS Sans", sans-serif;
-		background-color: rgb(0, 121, 211);
-		color: white;
-		border-bottom-color: rgb(0, 48, 130);
-		border-right: none;
-		border-left: none;
-		border-top: none;
 		padding: 1em 3em;
 		margin-left: 24%;
 		margin-top: 2em;
 		font-size: 1.8em;
-		cursor: pointer;
-		-webkit-border-radius: 0px;
+		
 	}
 	section > h1 {
 		font-family: "NS Sans", sans-serif;
-		display: flex;
-		font-weight: inherit;
-		color: rgb(0, 48, 130);
-		background: rgba(255, 201, 23, 0.95);
-		position: absolute;
 		padding-bottom: 2.6em;
 		padding-top: 0.5em;
 		font-size: 1.6em;
 		margin-top: -4.7em;
 		margin-left: -1.8em;
-		box-shadow: 0 7px 7px -5px darkgrey;
 	}
+	
 	section > h2 {
 		font-size: 2.5em;
 	}
@@ -351,63 +321,38 @@ article p {
 		display: flex;
 		flex-direction: column;
 		margin-bottom: 1.2em;
-		background-color: white;
-		width: 100%;
-		border-left: 0.5em solid rgb(0, 121, 211);
-		box-shadow: 0 7px 7px -5px darkgrey;
 	}
-	header > a {
-		display: flex;
-		width: 6em;
-		height: 6em;
-		margin-top: -8.5em;
-		margin-left: 23em;
-		margin-bottom: 3.5em;
-	}
+	
+
 	.uppericon {
 		margin-left: 1em;
 		margin-top: -0.5em;
-		position: absolute;
 		display: flex;
 		max-width: 5em;
 		height: auto;
 	}
+	
 	h2 a {
 		font-family: "NS Sans", sans-serif;
-		margin-left: 10%;
-		margin-top: auto;
-		margin-bottom: auto;
-		color: rgb(0, 48, 130);
 		font-size: 1.6em;
-		text-decoration: none;
 	}
+	
 	article p {
 		font-size: 1.6em;
 		margin-left: 10%;
-		margin-right: 10%;
-		padding-top: 0;
-		margin-top: 0;
-		line-height: 1.2;
+		margin-right: 10%;		
 	}
+	
 	body > section > section > article input {
+		font-family: "NS Sans", sans-serif;
 		-webkit-appearance: none;
 		border-radius: 0;
-		margin-top: auto;
 		padding: 0.5em;
 		padding-left: 1em;
 		padding-right: 1em;
-		margin-left: 10%;
-		margin-bottom: 0.625em;
-		background-color: rgb(255, 201, 23);
-		font-family: "NS Sans", sans-serif;
-		color: rgb(0, 48, 130);
-		border-bottom-color: rgb(230, 181, 23);
-		border-right: none;
-		border-left: none;
-		border-top: none;
-		font-size: 2em;
-		cursor: pointer;
+		font-size: 2em;	
 	}
+	
 	header > a {
 		display: flex;
 		width: 6em;
@@ -416,6 +361,7 @@ article p {
 		margin-left: 17em;
 		margin-bottom: 3.5em;
 	}
+	
 	footer p {
 		text-align: center;
 		font-size: 1.6em;
@@ -445,6 +391,7 @@ article p {
 	}
 	main img {
 		max-width: 34em;
+		width: auto;
 		height: auto;
 	}
 	body > section > section > article {

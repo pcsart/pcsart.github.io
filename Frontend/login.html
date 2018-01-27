@@ -5,17 +5,34 @@
 	<meta charset="UTF-8">
 	<title>Inloggen</title>
 	<link rel="stylesheet" type="text/css" href="styles/login.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+<header>
+<nav>
+			
+
+			<ul>
+				<li>
+					<a href="home.html">
+						<img src="images/nslogo.svg" alt="Logo NS"></a>
+				</li>
+				<li><a href="#">Mijn likes</a></li>
+				<li><a href="#">Mijn bladwijzers</a></li>
+				<li><a href="login.html">Inloggen</a></li>
+			</ul>
+
+		</nav>
+	</header>
 	<form action="home.html">
 		<fieldset>
 			<legend>
 				<h1>Welkom bij uw NS-account</h1></legend>
 			<input type="text" placeholder="E-mail" name="e-mail" required>
 			<input type="password" placeholder="Wachtwoord" name="ww" required>
-			<input type="checkbox" checked="checked"> Herinner mij
-			<input type="submit" value="Inloggen >"> Nog geen account? <a href="index.html">Meld je aan!</a>
+			<input type="submit" value="Inloggen >">
+			<p>Nog geen account? <a href="index.html">Log in!</a></p>
 		</fieldset>
 	</form>
 
