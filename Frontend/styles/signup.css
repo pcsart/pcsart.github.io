@@ -155,9 +155,12 @@ a {
 	}
 	input[type=text],
 	input[type=password] {
+		-webkit-appearance: none;
+		border-radius: 0;
 		font-size: 1.7em;
 	}
 	input[type=submit] {
+		-webkit-appearance: none;
 		font-size: 1.9em;
 	}
 	p {
@@ -174,7 +177,7 @@ a {
 	}
 	nav {
 		width: 100%;
-		font-size: 0.85em;
+		font-size: 0.75em;
 		padding-bottom: 0.5em;
 		margin: 0;
 	}
@@ -200,9 +203,13 @@ a {
 	}
 	input[type=text],
 	input[type=password] {
+		-webkit-appearance: none;
+border-radius: 0;
 		font-size: 1em;
 	}
 	input[type=submit] {
+		-webkit-appearance: none;
+		border-radius: 0;
 		font-size: 1.1em;
 	}
 	p {
