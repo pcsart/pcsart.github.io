@@ -68,6 +68,14 @@ input[type=password] {
 	box-sizing: border-box;
 }
 
+/*FORM STATES*/
+
+input[type=text]:focus {
+	border: 2px solid rgb(0, 121, 211);
+}
+input[type=password]:focus {	
+	border: 2px solid rgb(0, 121, 211); }
+
 input[type=submit] {
 	-webkit-appearance: none;
 	border-radius: 0;
@@ -82,6 +90,24 @@ input[type=submit] {
 	border-top: none;
 	cursor: pointer;
 	width: 100%;
+}
+
+input[type=submit]:focus {
+	background-color: rgb(230, 181, 23);
+	color: white;
+	border-bottom-color: rgb(230, 181, 23);
+	
+}
+
+input[type=submit]:hover {
+	background-color: rgb(0, 48, 130);
+}
+
+
+input[type=submit]:active {
+	background-color: rgb(255, 201, 23);
+	border-bottom-color: rgb(255, 201, 23);
+	color: white;
 }
 
 form {

@@ -100,9 +100,24 @@ main input {
 	cursor: pointer;
 }
 
+main input:focus {
+	background-color: rgb(230, 181, 23);
+	color: white;
+	border-bottom-color: rgb(230, 181, 23);
+	
+}
+
 main input:hover {
 	background-color: rgb(0, 48, 130);
 }
+
+
+main input:active {
+	background-color: rgb(255, 201, 23);
+	border-bottom-color: rgb(255, 201, 23);
+	color: white;
+}
+
 
 header select {
 	border-radius: 0;
@@ -198,9 +213,29 @@ body > section > section > article input {
 	cursor: pointer;
 }
 
+/*BUTTON STATES*/
+
+
+body > section > section > article input:focus {
+	background-color: rgb(0, 48, 130);
+	color: white;
+	border-bottom-color: rgb(0, 48, 130);
+	
+}
+
+
 body > section > section > article input:hover {
 	background-color: rgb(230, 181, 23);
+	
 }
+
+body > section > section > article input:active {
+	background-color: rgb(0, 121, 211);
+	border-bottom-color: rgb(0, 121, 211);
+	color: white;
+}
+
+
 
 body > section > section > article {
 	display: flex;

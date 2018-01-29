@@ -57,6 +57,7 @@ body {
 
 input[type=text],
 input[type=password] {
+	outline: none;
 	width: 100%;
 	padding: 0.75em 1.25em;
 	margin: 0.5em 0;
@@ -77,6 +78,35 @@ input[type=submit] {
 	cursor: pointer;
 	width: 100%;
 }
+
+
+input[type=submit]:focus {
+	background-color: rgb(230, 181, 23);
+	color: white;
+	border-bottom-color: rgb(230, 181, 23);
+	
+}
+
+input[type=submit]:hover {
+	background-color: rgb(0, 48, 130);
+}
+
+
+input[type=submit]:active {
+	background-color: rgb(255, 201, 23);
+	border-bottom-color: rgb(255, 201, 23);
+	color: white;
+}
+
+
+
+/*FORM STATES*/
+
+input[type=text]:focus {
+	border: 2px solid rgb(0, 121, 211);
+}
+input[type=password]:focus {	
+	border: 2px solid rgb(0, 121, 211); }
 
 form {
 	color: rgb(0, 48, 130);
@@ -101,6 +131,8 @@ h1 {
 a {
 	color: rgb(0, 48, 130);
 }
+
+
 
 
 /*TABLET*/
@@ -142,6 +174,7 @@ a {
 		padding: 0;
 	}
 	form {
+		outline: none;
 		left: 2.5%;
 		right: 2.5%;
 		top: 35%;
@@ -163,8 +196,13 @@ a {
 		-webkit-appearance: none;
 		font-size: 1.9em;
 	}
+	
+
+	}
+	
+	
 	p {
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 }
 
