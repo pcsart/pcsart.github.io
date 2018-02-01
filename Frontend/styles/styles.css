@@ -1,3 +1,5 @@
+/*Alles moet in lettertype NS Sans*/
+
 html {
 	font: 100% / 250% "NS Sans";
 	padding: 0;
@@ -100,6 +102,8 @@ main input {
 	cursor: pointer;
 }
 
+/*BUTTON STATES*/
+
 main input:focus {
 	background-color: rgb(230, 181, 23);
 	color: white;
@@ -170,6 +174,7 @@ body > section > section > article img {
 	height: auto;
 }
 
+/*Class aangemaakt vanuit Javascript om het plusicoon in een vinkje te wijzigen. Dit doe je om verhalen op te slaan in mijn lijstje*/
 .opgeslagenverhaal {
 	content: url(http://i66.tinypic.com/2h49jz6.png);
 }
