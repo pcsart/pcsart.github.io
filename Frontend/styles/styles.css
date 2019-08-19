@@ -3,6 +3,7 @@
 html {
 	font: 100% / 250% "NS Sans";
 	padding: 0;
+	
 }
 
 * {
@@ -14,6 +15,8 @@ header {
 	margin: 0;
 	padding: 0;
 	background-color: white;
+	
+	
 }
 
 nav {
@@ -30,10 +33,11 @@ ul {
 	display: flex;
 	padding: 0;
 	margin: 0;
+	
 }
 
 li {
-	padding: 1em;
+	padding: 1.1em;
 }
 
 li:nth-of-type(2) {
@@ -58,14 +62,18 @@ body {
 	padding: 0;
 	background-color: rgb(230, 230, 233);
 	color: rgb(0, 48, 130);
+	
+	
+	
 }
 
 section > h2 {
 	grid-row: 1;
 	color: rgb(0, 48, 130);
 	margin-bottom: -0.2em;
-	padding-top: 1.5em;
-	font-size: 1.5em;
+	padding-top: 1em;
+	padding-bottom: 0.4em;
+	font-size: 2em;
 	font-weight: normal;
 }
 
@@ -81,24 +89,26 @@ h2 a {
 main img {
 	width: 100%;
 	height: auto;
+
 }
+
 
 main input {
 	-webkit-appearance: none;
 	-webkit-transition-duration: 0.2s;
 	/* Safari */
 	transition-duration: 0.2s;
-	border-radius: 0;
+	border-radius: 6px;
 	position: absolute;
 	font-family: "NS Sans", sans-serif;
 	background-color: rgb(0, 121, 211);
 	color: white;
-	border-bottom-color: rgb(0, 48, 130);
+	border-bottom-color: rgb(0, 75, 160);
 	border-right: none;
 	border-left: none;
 	border-top: none;
 	padding: 1em 3em;
-	margin-left: 36%;
+	margin-left: 38.5%;
 	margin-top: 6.3em;
 	font-size: 1.5em;
 	cursor: pointer;
@@ -114,7 +124,7 @@ main input:focus {
 }
 
 main input:hover {
-	background-color: rgb(0, 48, 130);
+	background-color: rgb(0, 75, 160);
 }
 
 
@@ -126,7 +136,7 @@ main input:active {
 
 
 header select {
-	border-radius: 0;
+	border-radius: 4px;
 	font-family: "NS sans", sans-serif;
 	background-color: rgb(255, 201, 23);
 	border-right: none;
@@ -135,10 +145,13 @@ header select {
 	border-bottom-color: rgb(230, 181, 23);
 	font-size: 1.35em;
 	width: 6.5em;
-	margin-left: 16.5%;
-	margin-bottom: 0.3em;
+	margin-left: 17.5%;
+	margin-top: 1em;
+	margin-bottom: 0.7em;
 	color: rgb(0, 48, 130);
 	cursor: pointer;
+	
+	
 }
 
 section > h1 {
@@ -148,11 +161,14 @@ section > h1 {
 	color: rgb(0, 48, 130);
 	background: rgba(255, 201, 23, 0.95);
 	position: absolute;
-	padding-bottom: 2.6em;
-	padding-top: 0.2em;
-	font-size: 2em;
+	border-radius: 6px;
+	padding-bottom: 1.5em;
+	padding-top: 1.5em;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	font-size: 1.9em;
 	margin-top: -4.2em;
-	margin-left: 8em;
+	margin-left: 6.5em;
 	box-shadow: 0 7px 7px -5px darkgrey;
 }
 
@@ -216,7 +232,7 @@ body > section > section > article input {
 	-webkit-transition-duration: 0.2s;
 	/* Safari */
 	transition-duration: 0.2s;
-	border-radius: 0;
+	border-radius: 6px;
 	margin-top: auto;
 	padding: 0.5em;
 	padding-left: 1em;
@@ -299,7 +315,7 @@ body > section > section > #buttoninput {
 	-webkit-transition-duration: 0.2s;
 	/* Safari */
 	transition-duration: 0.2s;
-	border-radius: 0;
+	border-radius: 6px;
 	margin-top: auto;
 	padding: 0.5em;
 	padding-left: 1em;
@@ -357,7 +373,7 @@ body > section > section > #buttoninput {
 	}
 	header select {
 		-webkit-appearance: none;
-		border-radius: 0;
+		border-radius: 6px;
 		font-family: "NS sans", sans-serif;
 		border-bottom-color: rgb(230, 181, 23);
 		font-size: 2.2em;
@@ -370,7 +386,7 @@ body > section > section > #buttoninput {
 	
 	main input {
 		-webkit-appearance: none;
-		border-radius: 0;
+		border-radius: 6px;
 		font-family: "NS Sans", sans-serif;
 		padding: 1em 3em;
 		margin-left: 24%;
@@ -422,7 +438,7 @@ body > section > section > #buttoninput {
 	body > section > section > article input {
 		font-family: "NS Sans", sans-serif;
 		-webkit-appearance: none;
-		border-radius: 0;
+		border-radius: 6px;
 		padding: 0.5em;
 		padding-left: 1em;
 		padding-right: 1em;
@@ -480,14 +496,14 @@ body > section > section > #buttoninput {
 		width: 34em;
 	}
 	main input {
-		font-size: 1.4em;
+		font-size: 1.2em;
 		margin-top: 1.2em;
-		margin-left: 5em;
+		margin-left: 7.5em;
 	}
 	section > h1 {
 		font-size: 1em;
-		width: 28.75em;
-		margin-left: -1.2em;
+		width: 30.75em;
+		margin-left: -2em;
 		margin-top: -7em;
 	}
 	section > h2 {

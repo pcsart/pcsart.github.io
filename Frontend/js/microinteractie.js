@@ -15,13 +15,13 @@ var clicks = 0;
     function onClick() {
         clicks += 1;
         document.getElementById("clicks").innerHTML = clicks;
-    };
+    }
 
 
 
 // reageer
 ////https://codepen.io/phcacique/pen/BzoLLY
-var pop, 	reageerbutton, close, mainpopup;
+var pop, reageerbutton, close, mainpopup;
 var isOpen = false;
 
 window.onload = function(){
@@ -45,5 +45,5 @@ window.onload = function(){
 	
 	mainpopup = document.getElementById("mainpopup");
 	
-	
-}
+};
+
