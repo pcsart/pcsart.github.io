@@ -435,6 +435,9 @@ body > section > section > #buttoninput {
 		font-size: 1.6em;
 	}
 }
+.leeg{
+	color: white;
+}
 
 
 /* MOBIEL */
@@ -516,4 +519,8 @@ body > section > section > #buttoninput {
 	footer p {
 		font-size: 1.2em;
 	}
+	.leeg{
+	color: white;
+}
+
 }
