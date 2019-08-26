@@ -1,8 +1,11 @@
 /*Alles moet in lettertype NS Sans*/
 
 html {
+
+	position: sticky;
 	font: 100% / 250% "NS Sans";
 	padding: 0;
+	
 	
 }
 
@@ -286,6 +289,7 @@ body > section > section > article {
 
 
 footer {
+	
 	width: 100%;
 	height: auto;
 	list-style-type: none;
@@ -333,7 +337,7 @@ body > section > section > #buttoninput {
 	cursor: pointer;
 }
 .leeg{
-	color: white;
+	display: none;
 }
 
 
@@ -414,8 +418,23 @@ body > section > section > #buttoninput {
 		margin-bottom: 1.2em;
 	}
 	
+.opgeslagenverhaal {
+	content: url(http://i66.tinypic.com/2h49jz6.png);
+}
+	.opgeslagenverhaal:active {
+	opacity: 0;
+	transition:opacity 0.10s ease-in-out;
+	
+}
 
+.uppericon:active {
+	opacity: 0;
+	transition:opacity 0.10s ease-in-out;
+	
+}
+	
 	.uppericon {
+		
 		margin-left: 17.5em;
 		margin-top: -9em;
 		display: flex;
@@ -452,7 +471,7 @@ body > section > section > #buttoninput {
 	}
 }
 .leeg{
-	color: white;
+	display: none;
 }
 
 
@@ -515,6 +534,24 @@ body > section > section > #buttoninput {
 		font-size: 1.5em;
 	}
 	
+	.opgeslagenverhaal {
+	content: url(http://i66.tinypic.com/2h49jz6.png);
+	
+}
+	
+	.opgeslagenverhaal:active {
+	opacity: 0;
+	transition:opacity 0.15s ease-in-out;
+
+}
+
+
+.uppericon:active {
+	opacity: 0;
+	transition:opacity 0.15s ease-in-out;
+
+}
+	
 	.uppericon {
 		position: absolute;
 		display: flex;
@@ -536,7 +573,7 @@ body > section > section > #buttoninput {
 		font-size: 1.2em;
 	}
 	.leeg{
-	color: white;
+	display: none;
 }
 
 }

@@ -24,13 +24,19 @@ var clicks = 0;
 var pop, reageerbutton, close, mainpopup;
 var isOpen = false;
 
+
+
 window.onload = function(){
+	
 	pop = document.getElementById("popup");	
 	pop.style.display = "none";
 	
 	reageerbutton = document.getElementById("reageerbutton");
 	
 	close = document.getElementById("closing");
+	
+	
+	
 	
 		reageerbutton.addEventListener("click", function(){
 		pop.style.display = "block";
@@ -40,10 +46,12 @@ window.onload = function(){
 	});
 	
 	close.addEventListener("click", function(){
+		
+		
 		pop.style.display = "none";
 	});
 	
 	mainpopup = document.getElementById("mainpopup");
+	 
 	
 };
-
